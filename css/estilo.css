@@ -1,0 +1,96 @@
+body{
+	background-image: url("../img/carbon.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;	
+	color: #FFF;
+	font-size: 22px;
+}
+
+#menu-h ul{
+	list-style-type: none;
+	margin-top: -3%;
+	text-align:center;
+}
+
+#menu-h ul li{
+	display: inline;
+}
+
+#menu-h ul li a{
+	padding: 1%;
+	display: inline-block;
+	background-color: #3ED8F0;
+	color: #FFF;
+	border-radius: 13px;
+}
+
+#menu-h ul li a:hover{
+	background-color: #2C98A8;
+
+}
+
+.carousel-indicators .active{
+	filter: invert(100%);
+}
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232C98A8' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232C98A8' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.fundBlack{
+	position: relative;
+	width: 95%;
+	height: 1400px;
+	margin: auto;
+	background:  linear-gradient( 4.5rad, black, #4e4e4e, #292929, black, #4e4e4e, #292929, black ); }
+
+
+.container-fluid{
+	width: 95%
+}
+
+p{
+	color: #fff;
+}
+
+#mark2 {
+	background:#3ED8F0;
+	border-radius: 10px;
+}
+
+.pBig{
+	color: #3ED8F0;
+	text-shadow: #2C98A8 2px 3px 2px;
+}
+
+#mark1 {
+	background:#3ED8F0;
+ 	font-size:25px; 
+ 	font-weight: bold;
+ 	border-radius: 14px;
+ }
+
+ .pBlu{
+ 	color: #3ED8F0;
+ 	font-size: 20px;
+ }
+
+ .imgPersona{
+ 	height:370px;
+ 	width:280px;
+ 	border-radius: 15px;
+ }
+
+ .fundBlack1{
+	position: relative;
+	width: 95%;
+	height: 1030px;
+	margin: auto;
+	background:  linear-gradient( 4.5rad, black, #4e4e4e, #292929, black, #4e4e4e, #292929, black ); }
+
+
